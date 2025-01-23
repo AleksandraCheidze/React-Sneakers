@@ -1,9 +1,6 @@
 import React from 'react';
-import axios from 'axios';
-
 import Info from '../Info';
 import { useCart } from '../../hooks/useCart';
-
 import styles from './Drawer.module.scss';
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -17,18 +14,19 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
   const onClickOrder = async () => {
     try {
       setIsLoading(true);
-      const { data } = await axios.post('/orders', {
-        items: cartItems,
-      });
-      setOrderId(data.id);
+
+      // Генерируем уникальный ID заказа (можно использовать Date или другой генератор)
+      const generatedOrderId = Math.floor(Math.random() * 10000);
+      setOrderId(generatedOrderId);
+
+      // Устанавливаем статус заказа как завершённый
       setIsOrderComplete(true);
+
+      // Очищаем корзину
       setCartItems([]);
 
-      for (let i = 0; i < cartItems.length; i++) {
-        const item = cartItems[i];
-        await axios.delete('/cart/' + item.id);
-        await delay(1000);
-      }
+      // Добавляем задержку для имитации обработки заказа
+      await delay(1000);
     } catch (error) {
       alert('Error while creating the order :(');
     }

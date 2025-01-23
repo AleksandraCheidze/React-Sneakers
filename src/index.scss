@@ -89,7 +89,7 @@ header {
 .cartTotalBlock {
   ul {
     display: block;
-    margin-bottom: 40px !important;
+    margin-bottom: 40px; // Рекомендуется избегать использования !important
 
     li {
       display: flex;
@@ -147,11 +147,11 @@ header {
   }
 
   &:hover {
-    background: lighten(#5f5f5e, 5%);
+    background: lighten(#5f5f5e, 5%);  // Используем lightening
   }
 
   &:active {
-    background: darken(#6c6d6b, 5%);
+    background: darken(#6c6d6b, 5%);  // Используем darken
   }
 }
 
