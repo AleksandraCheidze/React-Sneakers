@@ -1,5 +1,4 @@
 import React from 'react';
-import AppContext from '../context';
 import Card from '../components/Card';
 
 const localOrders = [
@@ -37,9 +36,8 @@ const localOrders = [
 ];
 
 function Orders() {
-  const { onAddToFavorite, onAddToCart } = React.useContext(AppContext);
   const [orders, setOrders] = React.useState(localOrders); 
-  const [isLoading, setIsLoading] = React.useState(false); 
+  const [isLoading] = React.useState(false); 
 
   React.useEffect(() => {
     setOrders(localOrders);

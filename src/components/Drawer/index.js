@@ -6,7 +6,7 @@ import styles from './Drawer.module.scss';
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 function Drawer({ onClose, onRemove, items = [], opened }) {
-  const { cartItems, setCartItems, totalPrice } = useCart();
+  const { setCartItems, totalPrice } = useCart();
   const [orderId, setOrderId] = React.useState(null);
   const [isOrderComplete, setIsOrderComplete] = React.useState(false);
   const [isLoading, setIsLoading] = React.useState(false);
