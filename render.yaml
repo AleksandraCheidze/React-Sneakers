@@ -3,5 +3,5 @@ services:
     name: sneakers-2.0
     env: static
     staticPublishPath: build
-    buildCommand: npm run build
+    buildCommand: npm install && npm run build
     startCommand: npm start
