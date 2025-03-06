@@ -25,4 +25,35 @@ Clone this repo to your local machine:
 
 git clone https://github.com/your-username/react-sneakers.git
 
+2️⃣ Install Dependencies
+
+Navigate to the project directory and install the necessary dependencies using npm or yarn:
+
+cd react-sneakers
+
+npm install
+
+# or
+
+yarn install
+
+3️⃣ Run the Application
+
+To start the application in development mode:
+
+npm start
+
+# or
+
+yarn start
+
+The app will open in your browser at http://localhost:3000
+
+ ## 📌 **Features**
+
+- **Sneaker Catalog**: View selection of sneakers
+- **Add to Cart**: Add sneakers to your shopping cart
+- **Add to Favorites**: Place sneakers in your favorites for quick access later
+- **Order History**: View a detailed history of your past orders
+
 
