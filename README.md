@@ -1,6 +1,6 @@
-# 🚀 **Sneakers Shop - ReactJS Project**
+# 🚀 **React Sneakers Shop - ReactJS Project**
 
-Welcome to **Sneakers Shop**! This is an online store for sneakers built with **ReactJS**.
+ This is an online store for sneakers built with **ReactJS**.
 
 You can check out the live version here: [Sneakers Shop](https://react-sneakers-lac.vercel.app)
 
