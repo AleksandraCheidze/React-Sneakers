@@ -1,0 +1,79 @@
+{
+  "cart": [],
+  "favorites": [],
+  "orders":[],
+  "items": [
+    {
+      "id": "1",
+      "parentId": "1",
+      "title": "Nike Dunk Low Retro",
+      "price": 124,
+      "imageUrl": "/img/sneakers/1.jpg",
+      "description": "The Nike Dunk Low Retro brings back a classic design with premium materials and iconic colorways. These low-top sneakers feature a durable leather upper, padded collar for comfort, and a rubber outsole for excellent traction."
+    },
+    {
+      "id": "2",
+      "parentId": "2",
+      "title": "Saucony SHADOW",
+      "price": 122,
+      "imageUrl": "/img/sneakers/3.jpg",
+      "description": "The Saucony SHADOW combines retro style with modern comfort. Featuring a suede and mesh upper for breathability, cushioned midsole for all-day comfort, and a durable rubber outsole for reliable traction on various surfaces."
+    },
+    {
+      "id": "3",
+      "parentId": "3",
+      "title": "adidas Originals",
+      "price": 200,
+      "imageUrl": "/img/sneakers/4.jpg",
+      "description": "The adidas Originals sneakers blend heritage design with contemporary style. These iconic shoes feature the signature three stripes, premium materials, and advanced cushioning technology for superior comfort and support."
+    },
+    {
+      "id": "4",
+      "parentId": "4",
+      "title": "Asics GEL-KAYANO 14",
+      "price": 150,
+      "imageUrl": "/img/sneakers/5.jpg",
+      "description": "The Asics GEL-KAYANO 14 delivers exceptional performance and comfort. These running shoes feature GEL technology cushioning for impact absorption, a supportive midsole, and a breathable upper to keep your feet cool during intense workouts."
+    },
+    {
+      "id": "5",
+      "parentId": "5",
+      "title": "Y-3 ADIOS 9",
+      "price": 185,
+      "imageUrl": "/img/sneakers/6.jpg",
+      "description": "The Y-3 ADIOS 9 represents the perfect fusion of high fashion and athletic performance. Designed by Yohji Yamamoto, these premium sneakers feature innovative materials, sleek aesthetics, and advanced cushioning for both style and comfort."
+    },
+    {
+      "id": "6",
+      "parentId": "6",
+      "title": "New Balance M20",
+      "price": 110,
+      "imageUrl": "/img/sneakers/7.jpg",
+      "description": "The New Balance M20 offers classic style with modern comfort. These versatile sneakers feature a lightweight design, responsive cushioning, and a durable rubber outsole, making them perfect for everyday wear and light athletic activities."
+    },
+    {
+      "id": "7",
+      "parentId": "7",
+      "title": "Salomon XT-6",
+      "price": 150,
+      "imageUrl": "/img/sneakers/8.jpg",
+      "description": "The Salomon XT-6 is built for performance on challenging terrain. These trail running shoes feature advanced grip technology, protective reinforcements, and a cushioned midsole to provide stability, comfort, and durability for off-road adventures."
+    },
+    {
+      "id": "8",
+      "parentId": "8",
+      "title": "Danner Field Low ID",
+      "price": 180,
+      "imageUrl": "/img/sneakers/9.jpg",
+      "description": "The Danner Field Low ID combines outdoor functionality with urban style. These premium sneakers feature waterproof materials, superior craftsmanship, and a comfortable footbed, making them ideal for both outdoor exploration and city streets."
+    },
+    {
+      "id": "9",
+      "parentId": "9",
+      "title": "Hoka One One HOPARA",
+      "price": 155,
+      "imageUrl": "/img/sneakers/10.jpg",
+      "description": "The Hoka One One HOPARA is designed for versatile outdoor performance. These hybrid shoes feature quick-drying materials, exceptional cushioning, and aggressive traction, making them perfect for hiking, water activities, and everyday adventures."
+    }
+  ]
+}
